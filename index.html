@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>CSS Test Page</title>
+  </head>
+  <body>
+
+    <h1 align="center">Online Market</h1>
+
+    <a href="#">Home</a>
+    <a href="contact.html">Contact</a>
+
+    <h2>New Products Detail</h2>
+
+    <table>
+
+      <tr>
+      <th rowspan="4">Products</th>
+      </tr>
+
+      <tr>
+        <th>Name</th>
+        <td>x1</td>
+        <td>x2</td>
+        <td>x3</td>
+        <td>x4</td>
+      </tr>
+
+      <tr>
+        <th>Price</th>
+        <td>3.00</td>
+        <td>5.00</td>
+        <td>7.00</td>
+        <td>9.00</td>
+      </tr>
+
+      <tr>
+        <th>Quantity</th>
+        <td>5</td>
+        <td>6</td>
+        <td>12</td>
+        <td>16</td>
+
+      </tr>
+
+    </table>
+<br>
+    <fieldset>
+
+      <form action="#" method="post">
+
+        <label for="Date">Choose a Date: </label>
+        <input type="date" name="Date" value="" placeholder="dd/mm/yy" required>
+
+        <br><br>
+
+        <label for="Number">Choose number between 1 and 50: </label>
+        <input type="number" name="Number" value="" placeholder="1-50" required min="1" max="50">
+
+        <br><br><br>
+
+        <fieldset>
+
+          <legend>What is your favourite subject?</legend>
+
+          <input type="radio" name="subject" value="Maths" checked required>
+          <label for="subject">Maths</label>
+
+          <input type="radio" name="subject" value="Science" required>
+          <label for="subject">Science</label>
+
+          <input type="radio" name="subject" value="Biology" required>
+          <label for="subject">Biology</label>
+
+        </fieldset>
+
+        <br><br>
+
+        <select name="study level">
+
+          <option selected>Study Level</option>
+          <option>Undergraduate</option>
+          <option>Postgraduate</option>
+
+        </select>
+
+
+        <br><br>
+
+        <button type="submit" name="button">Submit</button>
+        <button type="reset" name="button">Reset</button>
+
+        <br><br>
+
+      </form>
+
+    </fieldset>
+
+
+
+  </body>
+</html>
